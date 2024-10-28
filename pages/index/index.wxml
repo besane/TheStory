@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<navigation-bar title="This is my title" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    first page
+  </view>
+</scroll-view>
