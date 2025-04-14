@@ -3,7 +3,9 @@
         "pages/index/index",
         "pages/mine/mine",
         "pages/search/search",
-        "pages/partition/partition"
+        "pages/partition/partition",
+        "pages/add_article",
+        "pages/add_article/add_article"
     ],
     "window": {
         "navigationBarBackgroundColor": "#000000",
@@ -19,16 +21,16 @@
                 "text": "首页"
             },
             {
-              "pagePath": "pages/search/search",
-              "text": "搜索"
+                "pagePath": "pages/search/search",
+                "text": "搜索"
             },
             {
                 "pagePath": "pages/partition/partition",
                 "text": "分区"
             },
             {
-              "pagePath": "pages/mine/mine",
-              "text": "我的"
+                "pagePath": "pages/mine/mine",
+                "text": "我的"
             }
         ]
     },

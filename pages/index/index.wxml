@@ -1,7 +1,9 @@
 <!--index.wxml-->
-<navigation-bar title="This is my title" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<navigation-bar title="首页" back="{{false}}" color="black" background="#FFF"></navigation-bar>
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
-    first page
+    Welcome to my area!
   </view>
 </scroll-view>
+<button type="primary"  bindtap="onTapButton">添加文章</button>
+<text>这是第{{cnt}}次点击按钮</text>
