@@ -4,13 +4,11 @@
         "pages/mine/mine",
         "pages/search/search",
         "pages/partition/partition",
-        "pages/add_article",
         "pages/add_article/add_article"
     ],
     "window": {
-        "navigationBarBackgroundColor": "#000000",
+        "navigationBarBackgroundColor": "#FFFFFF",
         "navigationBarTextStyle": "black",
-        "navigationStyle": "custom",
         "navigationBarTitleText": "This is my title",
         "backgroundColor": "#000000"
     },
@@ -35,17 +33,6 @@
         ]
     },
     "style": "v2",
-    "renderer": "skyline",
-    "rendererOptions": {
-        "skyline": {
-            "defaultDisplayBlock": true,
-            "defaultContentBox": true,
-            "tagNameStyleIsolation": "legacy",
-            "disableABTest": true,
-            "sdkVersionBegin": "3.0.0",
-            "sdkVersionEnd": "15.255.255"
-        }
-    },
     "componentFramework": "glass-easel",
     "sitemapLocation": "sitemap.json",
     "lazyCodeLoading": "requiredComponents"
